@@ -98,7 +98,13 @@ Browser Upgrade Prompt
 Author's custom styles
    ========================================================================== */
 
-/* -------- Base HEADER - FOOTER Styles --------- */
+.content-wrapper {
+    width: 90%;
+    margin: 50px 0;
+  }
+
+
+/* -------- BASE HEADER - FOOTER Styles --------- */
 
 header,
 footer {
@@ -109,11 +115,22 @@ footer {
   background-color: #b3d4fc;
 }
 
+header {
+  padding: 15px 0;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+}
+
+.header-divider {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 }
 
 header nav {
@@ -121,11 +138,55 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+}
+
+
+footer {
+  flex-direction: column;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer .contact {
+  margin-bottom: 50px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+address .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+address h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+address p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer .social-icons {
@@ -140,21 +201,25 @@ footer .social-icons p {
   align-items: center;
 }
 
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+/* =========================== MOBILE IS GOD --- HOMEPAGE =========================== */
 
-/* MOBILE IS GOD - HOMEPAGE */
 
 /* HERO AREA */
 
 .hero-area {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
   background-color: peru;
 }
 
-/* ASIIDE */
+/* ASIDE aka CONTACT FORM */
 
 .contact-form {
   display: flex;
@@ -172,11 +237,24 @@ footer .social-icons p {
   background-color: yellowgreen;
 }
 
+.features h2 {
+  margin-bottom: 60px;
+}
+
+.features article {
+  width: 55%;
+  margin: 30px 0;
+}
+
 .features .feature-items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.features p {
+  margin: 0;
 }
 
 /* REVIEWS */
@@ -188,8 +266,20 @@ footer .social-icons p {
   background-color: lightpink;
 }
 
+.reviews h2 {
+  margin-bottom: 40px;
+}
 
-/* ABOUT PAGE */
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0;
+}
+
+
+/* ==========================================================================
+About Page
+========================================================================== */
+
 
 .mission {
   display: flex;
@@ -200,12 +290,18 @@ footer .social-icons p {
 
 .contact-form {
   display: flex;
-  justify-content: ceter;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-/* FAQ PAGE */
+.contact-content p {
+  margin: 0;
+}
+
+/* ==========================================================================
+FAQ Page
+========================================================================== */
 
 .faq {
   display: flex;
@@ -221,7 +317,13 @@ footer .social-icons p {
   flex-flow: row wrap;
 }
 
+.faq h2 {
+  margin-bottom: 40px;
+}
 
+.faq-content {
+  margin-bottom: 50px;
+}
 
 
 /* ==========================================================================
