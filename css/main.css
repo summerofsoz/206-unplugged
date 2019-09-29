@@ -451,7 +451,7 @@ header nav ul {
 /* Hero Area */
 
 
-/* (Aside)Contact Form */
+/* (Aside) Contact Form */
 
 .contact-form .content-wrapper {
   display: flex;
@@ -464,6 +464,17 @@ header nav ul {
 .contact-form .content-wrapper .form {        
   width: 35%;         
   margin: 0;
+}
+
+
+.form-description h2 {
+  display: flex;
+  margin: 0;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
 }
 
     /* Features */
@@ -510,6 +521,7 @@ footer .contact {
 
 footer .copyright {
   width: 100%;
+  margin-top: 90px;
 }
 
 
@@ -554,7 +566,64 @@ footer .copyright {
 }
 
 @media only screen and (min-width: 1200px) {
-  /* Desktop styles here */
+  /* DESKTOP styles here */
+
+  /* General Styles */
+
+.content-wrapper {
+  max-width: 960px;
+}
+
+/* Hero Area */
+.hero-area h1 {
+  width: 60%;
+}
+
+/* (Aside) Contact Form Area */
+.contact-form .content-wrapper {
+  justify-content: space-around;
+}
+
+.contact-form .content-wrapper .form-description,
+.contact-form .content-wrapper .form {
+  width: 30%;
+}
+
+/* Features */
+
+.features h2 {
+  width: 70%;
+}
+.features article {
+  flex-basis: 33%;
+}
+
+/* Reviews */
+
+.reviews .content-wrapper div {
+  width: 42%;
+}
+
+/* About Page */
+
+.mission h2, .contact-section .content-wrapper2 {
+  width: 100%;
+}
+
+.contact-section .content-wrapper h2 {
+  margin-bottom: 40px;
+}
+
+/* FAQ Page */
+
+.faq h2 {
+  width: 100%;
+}
+
+.faq-content {
+  flex-basis: 35%;
+}
+
 }
 
 @media print,
