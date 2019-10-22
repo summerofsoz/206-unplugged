@@ -122,17 +122,20 @@ li, a {
 
 h1 {
   font-family: 'Poppins', sans-serif;
-  font-size: 3.75em;
+  font-size: 3.25em;
+  font-weight: 400;
 }
 
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
+  font-weight: 400;
 }
 
 h3, h4 { 
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
+  font-weight: 400;
   margin: 20px 0;
 }
 
@@ -227,7 +230,7 @@ footer .copyright {
 }
 
 
-/* =========================== MOBILE IS GOD --- HOMEPAGE =========================== */
+/* =========================== MOBILE STYLES --- HOMEPAGE =========================== */
 
 
 /* HERO AREA */
@@ -246,6 +249,28 @@ footer .copyright {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* FEATURES */
@@ -304,11 +329,15 @@ main {
   background-color: #527158;
 }
 
-.mission {
+.mission, .mission2 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.mission2 {
+  background-color: #2a423a;
 }
 
 .contact-form {
@@ -552,6 +581,7 @@ footer .content-wrapper{
 
 footer .contact {
   margin-bottom: 0;
+  text-align: center;
 }
 
 footer .copyright {
@@ -662,7 +692,7 @@ footer .copyright {
 }
 
 .faq-content {
-  flex-basis: 35%;
+  flex-basis: 40%;
 }
 
 }
