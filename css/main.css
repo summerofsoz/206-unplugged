@@ -214,14 +214,20 @@ footer .contact {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
 
 footer .social-icons p {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.social-icon {
+  background: #f4f4f4;
+  color: #000;
+  padding: 16px;
+  margin-right: 16px;
 }
 
 footer .copyright {
@@ -576,7 +582,7 @@ footer .content-wrapper{
 .footer-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 footer .contact {
