@@ -153,6 +153,14 @@ address {
   margin: 50px 0;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin:0;
+}
+
 /* -------------------------- Base Header - Footer Styles --------------- */
 
 header, footer {
@@ -241,11 +249,19 @@ footer .copyright {
 
 /* HERO AREA */
 
+
 .hero-area {
+  background: url(../img/hero-unplugged.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background-color: peru;
+}
+
+.hero-area h1 {
+  font-size: 2.25em;
 }
 
 /* ASIDE aka CONTACT FORM */
@@ -282,6 +298,9 @@ input[type=button] {
 /* FEATURES */
 
 .features {
+  background: url(../img/camped-unplugged.jpg);
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -326,6 +345,11 @@ input[type=button] {
   margin: 20px 0;
 }
 
+.reviews div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
 
 /* ==========================================================================
 About Page
@@ -497,7 +521,7 @@ Modify as content requires.
 
 .content-wrapper {
   max-width: 640px;
-  margin: 100px 0;
+  margin: 50px 0;
 }
 
   /* Header Styles */
@@ -678,6 +702,11 @@ footer .copyright {
 
 .reviews .content-wrapper div {
   width: 42%;
+}
+
+.reviews article {
+  display: flex;
+  justify-content: space-between;
 }
 
 
