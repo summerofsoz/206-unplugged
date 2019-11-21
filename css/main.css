@@ -175,6 +175,11 @@ header {
   padding: 15px 0;
   }
 
+.header-logo {
+  width: 220px;
+}  
+
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
@@ -200,6 +205,7 @@ header nav {
 header nav ul {
   display: flex;
   justify-content: space-around;
+  padding: 0;
   width: 100%;
 }
 
@@ -587,6 +593,10 @@ input {
 
 /* Reviews */
 
+.reviews .content-wrapper div {
+  width: 42%;
+}
+
 .reviews article div {
   width: 49%;
 }
@@ -595,6 +605,7 @@ input {
   display: flex;
   justify-content: space-between;
 }
+
 
 /* Footer */
 
@@ -671,6 +682,11 @@ footer .copyright {
 .content-wrapper {
   max-width: 960px;
 }
+
+.header-logo {
+  width: 284px;
+}  
+
 
 /* HERO AREA */
 
