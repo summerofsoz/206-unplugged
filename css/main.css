@@ -232,6 +232,11 @@ footer .social-icons {
   align-items: center;
 }
 
+footer .social-icon {
+  display: flex;
+  align-items: center;
+}
+
 footer .social-icons p {
   display: flex;
   justify-content: center;
